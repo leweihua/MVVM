@@ -4,3 +4,85 @@
 
 /.vs/MVVM
 /MVVM/obj
+
+# =============== #
+# Build Folders   #
+# =============== #
+
+bin/
+obj/
+
+# =============== #
+# VS User Files   #
+# =============== #
+
+# 用户特定的 VS 设置（不要提交）
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code 文件夹（如果你也用 VS Code）
+.vscode/
+
+# =============== #
+# NuGet Packages  #
+# =============== #
+
+# NuGet 包自动还原，不需要提交
+*.nupkg
+*.snupkg
+packages/
+# 如果启用 PackageReference，则不需要忽略 packages 文件夹
+
+# =============== #
+# Publish Folders #
+# =============== #
+
+# dotnet publish 输出
+publish/
+AppPackages/
+*.appxupload
+
+# =============== #
+# Rider / JetBrains #
+# =============== #
+
+.idea/
+*.sln.iml
+
+# =============== #
+# Temporary Files #
+# =============== #
+
+# 临时文件
+*.tmp
+*.temp
+*.bak
+*.log
+
+# =============== #
+# VS Crash Dumps  #
+# =============== #
+
+*.vspscc
+*.vssscc
+
+# =============== #
+# Windows Thumbs  #
+# =============== #
+
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =============== #
+# Others #
+# =============== #
+
+# User secrets（可选）
+secrets.json
+
+# 其他 IDE 临时文件
+.vs/
+

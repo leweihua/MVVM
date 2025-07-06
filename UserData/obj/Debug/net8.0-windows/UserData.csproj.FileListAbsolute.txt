@@ -1,6 +1,7 @@
 E:\Project_VisualStudio2022\MVVM\UserData\bin\Debug\net8.0-windows\UserData.deps.json
 E:\Project_VisualStudio2022\MVVM\UserData\bin\Debug\net8.0-windows\UserData.dll
 E:\Project_VisualStudio2022\MVVM\UserData\bin\Debug\net8.0-windows\UserData.pdb
+E:\Project_VisualStudio2022\MVVM\UserData\obj\Debug\net8.0-windows\UserData.csproj.AssemblyReference.cache
 E:\Project_VisualStudio2022\MVVM\UserData\obj\Debug\net8.0-windows\UserData.GeneratedMSBuildEditorConfig.editorconfig
 E:\Project_VisualStudio2022\MVVM\UserData\obj\Debug\net8.0-windows\UserData.AssemblyInfoInputs.cache
 E:\Project_VisualStudio2022\MVVM\UserData\obj\Debug\net8.0-windows\UserData.AssemblyInfo.cs

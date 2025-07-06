@@ -9,6 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Command\Command.csproj" />
     <ProjectReference Include="..\UserData\UserData.csproj" />
     <ProjectReference Include="..\ViewModel\ViewModel.csproj" />

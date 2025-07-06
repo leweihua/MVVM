@@ -3,6 +3,7 @@ E:\Project_VisualStudio2022\MVVM\MainFrom\bin\Debug\net8.0-windows\MainFrom.deps
 E:\Project_VisualStudio2022\MVVM\MainFrom\bin\Debug\net8.0-windows\MainFrom.runtimeconfig.json
 E:\Project_VisualStudio2022\MVVM\MainFrom\bin\Debug\net8.0-windows\MainFrom.dll
 E:\Project_VisualStudio2022\MVVM\MainFrom\bin\Debug\net8.0-windows\MainFrom.pdb
+E:\Project_VisualStudio2022\MVVM\MainFrom\bin\Debug\net8.0-windows\CommunityToolkit.Mvvm.dll
 E:\Project_VisualStudio2022\MVVM\MainFrom\bin\Debug\net8.0-windows\Command.dll
 E:\Project_VisualStudio2022\MVVM\MainFrom\bin\Debug\net8.0-windows\UserData.dll
 E:\Project_VisualStudio2022\MVVM\MainFrom\bin\Debug\net8.0-windows\ViewModel.dll

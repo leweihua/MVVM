@@ -11,9 +11,10 @@ namespace UserData
     {
         public static ObservableCollection<User> DataBaseUsers = new ObservableCollection<User>()
      {
-         new User() { name = "小王", email = "123@qq.com" },
-         new User() { name = "小红", email = "456@qq.com" },
-         new User() { name = "小五", email = "789@qq.com" }
+            // 为什么在使用了微软官方的MVVM库以后，属性的名称需要进行修改?
+         new User() { Name = "小王", Email = "123@qq.com" },
+         new User() { Name = "小红", Email = "456@qq.com" },
+         new User() { Name = "小五", Email = "789@qq.com" }
      };
 
         public static ObservableCollection<User> GetUsers()

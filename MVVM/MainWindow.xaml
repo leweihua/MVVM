@@ -5,8 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MVVM"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+        Title="MainWindow" Height="450" Width="800"
+        Loaded="Window_Loaded">
+    <StackPanel>
+        <ToolBar>
+            <Label Content="姓名："></Label>
+            <TextBox x:Name="nameTextBox" Width="50"></TextBox>
+            <Label Content="邮箱："></Label>
+            <TextBox x:Name="emailTextBox" Width="100"></TextBox>
+            <Button Content="添加" Click="AddUser" Background="Yellow"></Button>
+        </ToolBar>
+        <StackPanel>
+            <DataGrid x:Name="dataGrid1"></DataGrid>
+        </StackPanel>
+    </StackPanel>
 </Window>

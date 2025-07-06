@@ -8,9 +8,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using UserData;
 
-namespace MVVM
+namespace MainFrom
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -20,22 +19,8 @@ namespace MVVM
         public MainWindow()
         {
             InitializeComponent();
-        }
-
-        private void Window_Loaded(object sender, RoutedEventArgs e)
-        {
-            dataGrid1.ItemsSource = UserManager.GetUsers();
-        }
-
-        private void AddUser(object sender, RoutedEventArgs e)
-        {
-            User user=new User();
-            user.name=nameTextBox.Text;
-            user.email=emailTextBox.Text;
-            UserManager.AddUser(user);
-            MessageBox.Show("成功添加用户！");
+            MainViewModel mainViewModel = new MainViewModel();
+            this.DataContext = mainViewModel;
         }
     }
-
-
 }

@@ -1,0 +1,12 @@
+E:\Project_VisualStudio2022\MVVM\Command\bin\Debug\net8.0-windows\Command.deps.json
+E:\Project_VisualStudio2022\MVVM\Command\bin\Debug\net8.0-windows\Command.dll
+E:\Project_VisualStudio2022\MVVM\Command\bin\Debug\net8.0-windows\Command.pdb
+E:\Project_VisualStudio2022\MVVM\Command\obj\Debug\net8.0-windows\Command.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project_VisualStudio2022\MVVM\Command\obj\Debug\net8.0-windows\Command.AssemblyInfoInputs.cache
+E:\Project_VisualStudio2022\MVVM\Command\obj\Debug\net8.0-windows\Command.AssemblyInfo.cs
+E:\Project_VisualStudio2022\MVVM\Command\obj\Debug\net8.0-windows\Command.csproj.CoreCompileInputs.cache
+E:\Project_VisualStudio2022\MVVM\Command\obj\Debug\net8.0-windows\Command.sourcelink.json
+E:\Project_VisualStudio2022\MVVM\Command\obj\Debug\net8.0-windows\Command.dll
+E:\Project_VisualStudio2022\MVVM\Command\obj\Debug\net8.0-windows\refint\Command.dll
+E:\Project_VisualStudio2022\MVVM\Command\obj\Debug\net8.0-windows\Command.pdb
+E:\Project_VisualStudio2022\MVVM\Command\obj\Debug\net8.0-windows\ref\Command.dll

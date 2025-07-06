@@ -11,6 +11,8 @@
 
 bin/
 obj/
+Debug/
+Release/
 
 # =============== #
 # VS User Files   #

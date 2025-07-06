@@ -4,16 +4,18 @@ using System.Windows.Input;
 using UserData;
 using static System.Net.Mime.MediaTypeNames;
 
-public class MainViewModel: INotifyPropertyChanged
+public class MainViewModel : INotifyPropertyChanged
 {
     public ObservableCollection<User> Users { get; set; }
     public ICommand AddUserCommand { get; set; }
     public ICommand TestCommand { get; set; }
 
     private string? _name;
-    public string? Name {
-        get{ return _name; }
-        set{
+    public string? Name
+    {
+        get { return _name; }
+        set
+        {
             if (_name != value)
             {
                 _name = value;
@@ -22,7 +24,8 @@ public class MainViewModel: INotifyPropertyChanged
         }
     }
     private string? _email;
-    public string? Email {
+    public string? Email
+    {
         get { return _email; }
         set
         {
@@ -55,8 +58,11 @@ public class MainViewModel: INotifyPropertyChanged
 
     private void Test(object obj)
     {
-        Name = "小1";
-        Email = "111@qq.com";
+        //Name = "小1";
+        //Email = "111@qq.com";
+        // 测试VideModel改变Model里面的数据以后，Model发出Notification更新属性，而后再由ViewModel通知View
+        Users[0].Name = "小1";
+        Users[0].Email = "111@qq.com";
     }
 
     private bool CanAddUser(object obj)

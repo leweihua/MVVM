@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewModel", "ViewModel\View
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainFrom", "MainFrom\MainFrom.csproj", "{739B9E18-9C3A-4A99-B7F6-65DDDDA459D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurnOnAnimation", "TurnOnAnimation\TurnOnAnimation.csproj", "{8824A5A5-9664-4294-8B0B-A8C6373EF9E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddICON", "AddICON\AddICON.csproj", "{387EEA59-E3B3-4C75-8443-073EE73B9783}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{739B9E18-9C3A-4A99-B7F6-65DDDDA459D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{739B9E18-9C3A-4A99-B7F6-65DDDDA459D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{739B9E18-9C3A-4A99-B7F6-65DDDDA459D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8824A5A5-9664-4294-8B0B-A8C6373EF9E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8824A5A5-9664-4294-8B0B-A8C6373EF9E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8824A5A5-9664-4294-8B0B-A8C6373EF9E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8824A5A5-9664-4294-8B0B-A8C6373EF9E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{387EEA59-E3B3-4C75-8443-073EE73B9783}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{387EEA59-E3B3-4C75-8443-073EE73B9783}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{387EEA59-E3B3-4C75-8443-073EE73B9783}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{387EEA59-E3B3-4C75-8443-073EE73B9783}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -30,7 +30,7 @@
 		<DirectoryRef Id="INSTALLFOLDER">
 			<Component Id="MainExecutable" Guid="c2f3e4d5-6789-4bcd-8efa-2345678901bc">
 				<File Source="publish\TurnOnAnimation.exe" />
-				<Shortcut Id="StartMenuShortcut"
+				<Shortcut Id="StartMenuShortcutExe"
 						  Directory="ApplicationProgramsFolder"
 						  Name="TurnOnAnimation"
 						  WorkingDirectory="INSTALLFOLDER"

@@ -35,7 +35,6 @@
 						  Name="TurnOnAnimation"
 						  WorkingDirectory="INSTALLFOLDER"
 						  Icon="icon.ico"
-						  Advertise="yes"
 						  Description="Run TurnOnAnimation"
 						  Target="[INSTALLFOLDER]TurnOnAnimation.exe"/>
 				<RegistryValue Root="HKCU" Key="Software\TurnOnAnimation" Name="installed" Type="integer" Value="1" KeyPath="yes"/>

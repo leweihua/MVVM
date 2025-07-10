@@ -32,12 +32,15 @@ jobs:
         run: dotnet publish ${{ env.PROJECT_PATH }} -c Release --self-contained -r win-x64 --output publish
 
       - name: Install WiX Toolset
-        run: choco install wix
+        run: |
+            curl -LO https://github.com/wixtoolset/wix3/releases/download/wix3112rtm/wix311-binaries.zip
+            Expand-Archive wix311-binaries.zip -DestinationPath wix
+            echo "$(pwd)/wix" | Out-File -Append -FilePath $env:GITHUB_PATH
 
       - name: Build MSI
         run: |
-          candle installer.wxs
-          light -out TurnOnAnimationInstaller.msi installer.wixobj
+            candle installer.wxs
+            light -out TurnOnAnimationInstaller.msi installer.wixobj
 
       - uses: actions/create-release@v1
         id: create_release

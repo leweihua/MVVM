@@ -11,7 +11,7 @@
 			<ComponentRef Id="ApplicationShortcut" />
 		</Feature>
 
-		<Icon Id="icon.ico" SourceFile="icon.ico" />
+		<Icon Id="icon.ico" SourceFile="TurnOnAnimation\Resources\AppIcon.ico" />
 		<Property Id="ARPPRODUCTICON" Value="icon.ico" />
 	</Product>
 

@@ -14,7 +14,6 @@ env:
 jobs:
   deploy:
     runs-on: windows-latest
-
     steps:
       - uses: actions/checkout@v2
 
@@ -22,22 +21,12 @@ jobs:
         with:
           dotnet-version: 8.0.x
 
-      - name: Restore
-        run: dotnet restore ${{ env.PROJECT_PATH }} -r win-x64
+      - run: dotnet restore ${{ env.PROJECT_PATH }} -r win-x64
 
-      - name: Build
-        run: dotnet build ${{ env.PROJECT_PATH }} -c Release -r win-x64
+      - run: dotnet build ${{ env.PROJECT_PATH }} -c Release -r win-x64
 
-      - name: Publish
-        run: dotnet publish ${{ env.PROJECT_PATH }} -c Release --self-contained -r win-x64 --output publish
+      - run: dotnet publish ${{ env.PROJECT_PATH }} -c Release --self-contained -r win-x64 -p:PublishSingleFile=true
 
-      - name: Install WiX Toolset
-        run: choco install wix
-
-      - name: Build MSI
-        run: |
-          candle installer.wxs
-          light -out TurnOnAnimationInstaller.msi installer.wixobj
 
       - uses: actions/create-release@v1
         id: create_release
@@ -50,5 +39,5 @@ jobs:
       - uses: csexton/release-asset-action@v2
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          pattern: TurnOnAnimationInstaller.msi
+          pattern: TurnOnAnimation/bin/Release/net8.0-windows/win-x64/publish/*.exe
           release-url: ${{ steps.create_release.outputs.upload_url }}

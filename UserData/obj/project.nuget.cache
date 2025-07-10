@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "yhQaLL3/fDo=",
+  "dgSpecHash": "m0OMq+1mXIA=",
   "success": true,
-  "projectFilePath": "E:\\Project_VisualStudio2022\\MVVM\\UserData\\UserData.csproj",
+  "projectFilePath": "D:\\Project_VS2022\\MVVM\\UserData\\UserData.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Administrator\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.0\\communitytoolkit.mvvm.8.4.0.nupkg.sha512"
+    "C:\\Users\\weihua.le\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.0\\communitytoolkit.mvvm.8.4.0.nupkg.sha512"
   ],
   "logs": []
 }

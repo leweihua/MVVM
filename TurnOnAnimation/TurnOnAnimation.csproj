@@ -10,7 +10,12 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+		<None Remove="Resources\Icons\close.png" />
 		<None Remove="Resources\StartFlash.jpg" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Resource Include="Resources\Icons\close.png" />
 	</ItemGroup>
 
 	<ItemGroup>

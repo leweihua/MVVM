@@ -15,12 +15,11 @@
             <Button Content="添加"
                     Command="{Binding AddUserCommand }" Background="Yellow"></Button>
             <Button Content="测试"
-         Command="{Binding TestCommand }" Background="Gray"></Button>
-
+                    Command="{Binding TestCommand }" Background="Gray"></Button>
         </ToolBar>
         <StackPanel>
             <DataGrid ItemsSource="{Binding Users}"></DataGrid>
-
         </StackPanel>
+
     </StackPanel>
 </Window>

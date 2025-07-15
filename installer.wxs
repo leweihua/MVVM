@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Product Id="*" Name="TurnOnAnimation" Language="1033" Version="1.0.0" Manufacturer="YourCompany" UpgradeCode="b1e2c3d4-5678-4abc-9def-1234567890ab">
+		<Package InstallerVersion="500" Compressed="yes" InstallScope="perMachine" />
+
+		<MajorUpgrade DowngradeErrorMessage="A newer version is already installed." />
+		<MediaTemplate />
+
+		<Feature Id="ProductFeature" Title="TurnOnAnimation" Level="1">
+			<ComponentGroupRef Id="FilesGroup" />
+			<ComponentRef Id="ApplicationShortcut" />
+		</Feature>
+
+		<Icon Id="icon.ico" SourceFile="TurnOnAnimation\Resources\AppIcon.ico" />
+		<Property Id="ARPPRODUCTICON" Value="icon.ico" />
+	</Product>
+
+	<Fragment>
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="ProgramFilesFolder">
+				<Directory Id="INSTALLFOLDER" Name="TurnOnAnimation" />
+			</Directory>
+			<Directory Id="ProgramMenuFolder" Name="Programs">
+				<Directory Id="ApplicationProgramsFolder" Name="TurnOnAnimation" />
+			</Directory>
+		</Directory>
+	</Fragment>
+
+	<Fragment>
+		<DirectoryRef Id="INSTALLFOLDER">
+			<Component Id="MainExecutable" Guid="c2f3e4d5-6789-4bcd-8efa-2345678901bc">
+				<File Source="publish\TurnOnAnimation.exe" />
+				<Shortcut Id="StartMenuShortcutExe"
+						  Directory="ApplicationProgramsFolder"
+						  Name="TurnOnAnimation"
+						  WorkingDirectory="INSTALLFOLDER"
+						  Icon="icon.ico"
+						  Description="Run TurnOnAnimation"
+						  Target="[INSTALLFOLDER]TurnOnAnimation.exe"/>
+				<RegistryValue Root="HKCU" Key="Software\TurnOnAnimation" Name="installed" Type="integer" Value="1" KeyPath="yes"/>
+			</Component>
+		</DirectoryRef>
+	</Fragment>
+
+	<Fragment>
+		<DirectoryRef Id="ApplicationProgramsFolder">
+			<Component Id="ApplicationShortcut" Guid="d3e4f5a6-7890-4cde-9fab-3456789012cd">
+				<RemoveFolder Id="RemoveShortcutDir" On="uninstall"/>
+				<RegistryValue Root="HKCU" Key="Software\TurnOnAnimation" Name="installed" Type="integer" Value="1" KeyPath="yes"/>
+				<Shortcut Id="StartMenuShortcut"
+						  Name="TurnOnAnimation"
+						  Target="[INSTALLFOLDER]TurnOnAnimation.exe"
+						  WorkingDirectory="INSTALLFOLDER"
+						  Icon="icon.ico"
+						  Description="Run TurnOnAnimation"/>
+			</Component>
+		</DirectoryRef>
+	</Fragment>
+
+	<Fragment>
+		<ComponentGroup Id="FilesGroup">
+			<ComponentRef Id="MainExecutable" />
+		</ComponentGroup>
+	</Fragment>
+</Wix>

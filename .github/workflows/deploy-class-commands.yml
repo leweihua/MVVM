@@ -1,0 +1,57 @@
+name: "Deploy Class Commands"
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+env:
+  PROJECT_PATH: TurnOnAnimation/TurnOnAnimation.csproj
+
+jobs:
+  deploy:
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Restore
+        run: dotnet restore ${{ env.PROJECT_PATH }} -r win-x64
+
+      - name: Build
+        run: dotnet build ${{ env.PROJECT_PATH }} -c Release -r win-x64
+
+      - name: Publish
+        run: dotnet publish ${{ env.PROJECT_PATH }} -c Release --self-contained -r win-x64 --output publish
+
+      - name: Install WiX Toolset
+        run: |
+            curl -LO https://github.com/wixtoolset/wix3/releases/download/wix3112rtm/wix311-binaries.zip
+            Expand-Archive wix311-binaries.zip -DestinationPath wix
+            echo "$(pwd)/wix" | Out-File -Append -FilePath $env:GITHUB_PATH
+
+      - name: Build MSI
+        run: |
+            candle installer.wxs
+            light -out TurnOnAnimationInstaller.msi installer.wixobj
+
+      - uses: actions/create-release@v1
+        id: create_release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: ${{ github.ref }}
+
+      - uses: csexton/release-asset-action@v2
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          pattern: TurnOnAnimationInstaller.msi
+          release-url: ${{ steps.create_release.outputs.upload_url }}

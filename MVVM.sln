@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurnOnAnimation", "TurnOnAn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddICON", "AddICON\AddICON.csproj", "{387EEA59-E3B3-4C75-8443-073EE73B9783}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TabItemDemo", "TabItemDemo\TabItemDemo.csproj", "{F9D4F65D-E8D5-4179-A144-EFA122E3A5FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{387EEA59-E3B3-4C75-8443-073EE73B9783}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{387EEA59-E3B3-4C75-8443-073EE73B9783}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{387EEA59-E3B3-4C75-8443-073EE73B9783}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9D4F65D-E8D5-4179-A144-EFA122E3A5FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9D4F65D-E8D5-4179-A144-EFA122E3A5FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9D4F65D-E8D5-4179-A144-EFA122E3A5FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9D4F65D-E8D5-4179-A144-EFA122E3A5FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

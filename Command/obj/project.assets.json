@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project_VS2022\\MVVM\\Command\\Command.csproj",
+      "projectUniqueName": "D:\\ProjectVS2022\\MVVM\\Command\\Command.csproj",
       "projectName": "Command",
-      "projectPath": "D:\\Project_VS2022\\MVVM\\Command\\Command.csproj",
+      "projectPath": "D:\\ProjectVS2022\\MVVM\\Command\\Command.csproj",
       "packagesPath": "C:\\Users\\weihua.le\\.nuget\\packages\\",
-      "outputPath": "D:\\Project_VS2022\\MVVM\\Command\\obj\\",
+      "outputPath": "D:\\ProjectVS2022\\MVVM\\Command\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

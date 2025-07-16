@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project_VS2022\\MVVM\\ViewModel\\ViewModel.csproj": {}
+    "D:\\ProjectVS2022\\MVVM\\ViewModel\\ViewModel.csproj": {}
   },
   "projects": {
-    "D:\\Project_VS2022\\MVVM\\Command\\Command.csproj": {
+    "D:\\ProjectVS2022\\MVVM\\Command\\Command.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project_VS2022\\MVVM\\Command\\Command.csproj",
+        "projectUniqueName": "D:\\ProjectVS2022\\MVVM\\Command\\Command.csproj",
         "projectName": "Command",
-        "projectPath": "D:\\Project_VS2022\\MVVM\\Command\\Command.csproj",
+        "projectPath": "D:\\ProjectVS2022\\MVVM\\Command\\Command.csproj",
         "packagesPath": "C:\\Users\\weihua.le\\.nuget\\packages\\",
-        "outputPath": "D:\\Project_VS2022\\MVVM\\Command\\obj\\",
+        "outputPath": "D:\\ProjectVS2022\\MVVM\\Command\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -73,14 +73,14 @@
         }
       }
     },
-    "D:\\Project_VS2022\\MVVM\\UserData\\UserData.csproj": {
+    "D:\\ProjectVS2022\\MVVM\\UserData\\UserData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project_VS2022\\MVVM\\UserData\\UserData.csproj",
+        "projectUniqueName": "D:\\ProjectVS2022\\MVVM\\UserData\\UserData.csproj",
         "projectName": "UserData",
-        "projectPath": "D:\\Project_VS2022\\MVVM\\UserData\\UserData.csproj",
+        "projectPath": "D:\\ProjectVS2022\\MVVM\\UserData\\UserData.csproj",
         "packagesPath": "C:\\Users\\weihua.le\\.nuget\\packages\\",
-        "outputPath": "D:\\Project_VS2022\\MVVM\\UserData\\obj\\",
+        "outputPath": "D:\\ProjectVS2022\\MVVM\\UserData\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -148,14 +148,14 @@
         }
       }
     },
-    "D:\\Project_VS2022\\MVVM\\ViewModel\\ViewModel.csproj": {
+    "D:\\ProjectVS2022\\MVVM\\ViewModel\\ViewModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project_VS2022\\MVVM\\ViewModel\\ViewModel.csproj",
+        "projectUniqueName": "D:\\ProjectVS2022\\MVVM\\ViewModel\\ViewModel.csproj",
         "projectName": "ViewModel",
-        "projectPath": "D:\\Project_VS2022\\MVVM\\ViewModel\\ViewModel.csproj",
+        "projectPath": "D:\\ProjectVS2022\\MVVM\\ViewModel\\ViewModel.csproj",
         "packagesPath": "C:\\Users\\weihua.le\\.nuget\\packages\\",
-        "outputPath": "D:\\Project_VS2022\\MVVM\\ViewModel\\obj\\",
+        "outputPath": "D:\\ProjectVS2022\\MVVM\\ViewModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -177,11 +177,11 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "D:\\Project_VS2022\\MVVM\\Command\\Command.csproj": {
-                "projectPath": "D:\\Project_VS2022\\MVVM\\Command\\Command.csproj"
+              "D:\\ProjectVS2022\\MVVM\\Command\\Command.csproj": {
+                "projectPath": "D:\\ProjectVS2022\\MVVM\\Command\\Command.csproj"
               },
-              "D:\\Project_VS2022\\MVVM\\UserData\\UserData.csproj": {
-                "projectPath": "D:\\Project_VS2022\\MVVM\\UserData\\UserData.csproj"
+              "D:\\ProjectVS2022\\MVVM\\UserData\\UserData.csproj": {
+                "projectPath": "D:\\ProjectVS2022\\MVVM\\UserData\\UserData.csproj"
               }
             }
           }

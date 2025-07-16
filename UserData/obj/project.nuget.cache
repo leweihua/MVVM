@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m0OMq+1mXIA=",
+  "dgSpecHash": "oK3AhbJbZh8=",
   "success": true,
-  "projectFilePath": "D:\\Project_VS2022\\MVVM\\UserData\\UserData.csproj",
+  "projectFilePath": "D:\\ProjectVS2022\\MVVM\\UserData\\UserData.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\weihua.le\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.0\\communitytoolkit.mvvm.8.4.0.nupkg.sha512"
   ],

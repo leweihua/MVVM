@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GQmUZo6NYv8=",
+  "dgSpecHash": "Ru8yrgetB0o=",
   "success": true,
-  "projectFilePath": "D:\\Project_VS2022\\MVVM\\ViewModel\\ViewModel.csproj",
+  "projectFilePath": "D:\\ProjectVS2022\\MVVM\\ViewModel\\ViewModel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\weihua.le\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.0\\communitytoolkit.mvvm.8.4.0.nupkg.sha512"
   ],

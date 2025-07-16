@@ -8,21 +8,20 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WpfApp1.ViewModel;
 
-namespace MainFrom
+namespace WpfApp1
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
-        //string name = "abc";
         public MainWindow()
         {
             InitializeComponent();
-            MainViewModel mainViewModel = new MainViewModel();
-            this.DataContext = mainViewModel;
-            //Console.WriteLine(nameof(name));
+            var mainWindowViewModel = new MainWindowViewModel();
+            this.DataContext = mainWindowViewModel;
         }
     }
 }

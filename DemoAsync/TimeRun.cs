@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DemoAsync
 {
-    internal class TimeRun
+    public class TimeRun
     {
         int TimesCalled = 0;
         void DisPlay(object obj)

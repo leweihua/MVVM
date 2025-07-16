@@ -1,10 +1,14 @@
 ﻿using Microsoft.Data.SqlClient;
 using System;
 
+using DemoAsync;
+
 class Program
 {
     static void Main(string[] args)
     {
+        //DisPlay("");
+
         string connectionString = "server=localhost; database=test; uid=sa; pwd=admin@12345;Encrypt=True;TrustServerCertificate=True;";
 
         // 建立连接

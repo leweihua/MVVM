@@ -1,0 +1,16 @@
+﻿<Window x:Class="DemoTask.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DemoTask"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="300">
+    <Grid>
+        <StackPanel Margin="10,5,10,5">
+            <TextBox x:Name="ShowMessage" Text="Not Doing Anything"/>
+            <Button x:Name="btnExecute" Height="30" Width="100" Margin="10,5,10,5" Content="Do Stuff" Click="btnExecute_Click"/>
+        </StackPanel>
+
+    </Grid>
+</Window>
